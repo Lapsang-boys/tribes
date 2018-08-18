@@ -1,0 +1,76 @@
+.links line {
+	/*stroke: #999;*/
+	stroke-opacity: 0.6;
+}
+
+text {
+	fill: #000;
+	font: 10px sans-serif;
+	pointer-events: none;
+}
+
+.nodes circle {
+	stroke: #fff;
+	stroke-width: 1.5px;
+}
+
+#header {
+	top: 0px;
+	background: #eee;
+	height: 30px;
+	width: 100%;
+	color: #111;
+	text-align: center;
+}
+
+#power::before {
+	content: "Power: ";
+}
+#population::before {
+	content: "Population: ";
+}
+#income::before {
+	content: "Income: ";
+}
+#expenditure::before {
+	content: "Expenditure: ";
+}
+#surplus::before {
+	content: "Surplus: ";
+}
+#debt::before {
+	content: "Debt: ";
+}
+#turn::before {
+	content: "Turn: ";
+}
+
+#header ul {
+	height: 30px;
+	line-height: 23px;
+}
+
+#header ul li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 1%;
+}
+
+#graph_view {
+	/*background: red;*/
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-size: 12px;
+	overflow-y: hidden;
+}
+
+#mynetwork {
+	height: 50%;
+	border: 1px solid lightgray;
+}
